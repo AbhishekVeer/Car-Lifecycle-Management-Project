@@ -1,0 +1,424 @@
+﻿[
+    {
+        "C_ID": "C001",
+        "Name": "John Doe",
+        "Is_Company": "Yes",
+        "Address": "123 Main St",
+        "Phone": "1234567890",
+        "Gender": "Male",
+        "Annual_income": "50000",
+        "D_ID": "D001"
+    },
+    {
+        "C_ID": "C002",
+        "Name": "Jane Smith",
+        "Is_Company": "No",
+        "Address": "456 Oak Ave",
+        "Phone": "9876543210",
+        "Gender": "Female",
+        "Annual_income": "75000",
+        "D_ID": "D002"
+    },
+    {
+        "C_ID": "C003",
+        "Name": "Michael Johnson",
+        "Is_Company": "Yes",
+        "Address": "789 Elm Rd",
+        "Phone": "5551234567",
+        "Gender": "Male",
+        "Annual_income": "60000",
+        "D_ID": "D003"
+    },
+    {
+        "C_ID": "C004",
+        "Name": "Emily Brown",
+        "Is_Company": "No",
+        "Address": "321 Pine Blvd",
+        "Phone": "9998887777",
+        "Gender": "Female",
+        "Annual_income": "80000",
+        "D_ID": "D001"
+    },
+    {
+        "C_ID": "C005",
+        "Name": "David Wilson",
+        "Is_Company": "Yes",
+        "Address": "654 Cedar Ln",
+        "Phone": "1112223333",
+        "Gender": "Male",
+        "Annual_income": "70000",
+        "D_ID": "D002"
+    },
+    {
+        "E_ID": "E001",
+        "Name": "John Smith",
+        "Position": "Manager",
+        "Salary": "80000",
+        "Join_Date": "2023-01-01",
+        "D_ID": "D001"
+    },
+    {
+        "E_ID": "E002",
+        "Name": "Jane Doe",
+        "Position": "Salesperson",
+        "Salary": "50000",
+        "Join_Date": "2023-02-15",
+        "D_ID": "D002"
+    },
+    {
+        "E_ID": "E003",
+        "Name": "Michael Johnson",
+        "Position": "Technician",
+        "Salary": "60000",
+        "Join_Date": "2023-03-10",
+        "D_ID": "D003"
+    },
+    {
+        "E_ID": "E004",
+        "Name": "Emily Brown",
+        "Position": "Accountant",
+        "Salary": "70000",
+        "Join_Date": "2023-04-20",
+        "D_ID": "D001"
+    },
+    {
+        "E_ID": "E005",
+        "Name": "David Wilson",
+        "Position": "Engineer",
+        "Salary": "75000",
+        "Join_Date": "2023-05-30",
+        "D_ID": "D002"
+    },
+    {
+        "M_ID": "M001",
+        "C_ID": "C001",
+        "D_ID": "D001",
+        "Date": "2024-03-01",
+        "Price": "2500000"
+    },
+    {
+        "M_ID": "M002",
+        "C_ID": "C002",
+        "D_ID": "D002",
+        "Date": "2024-03-05",
+        "Price": "3000000"
+    },
+    {
+        "M_ID": "M003",
+        "C_ID": "C003",
+        "D_ID": "D003",
+        "Date": "2024-03-10",
+        "Price": "3500000"
+    },
+    {
+        "M_ID": "M004",
+        "C_ID": "C004",
+        "D_ID": "D001",
+        "Date": "2024-03-15",
+        "Price": "4000000"
+    },
+    {
+        "M_ID": "M005",
+        "C_ID": "C005",
+        "D_ID": "D002",
+        "Date": "2024-03-20",
+        "Price": "4500000"
+    },
+    {
+        "V_IN": "VIN001",
+        "Option_ID": "1001",
+        "Model_name": "Tata Tiago",
+        "Inventory_ID": "IN001",
+        "Customer_ID": "C001",
+        "Manufacturing_ID": "M001",
+        "Feature_ID": "F001"
+    },
+    {
+        "V_IN": "VIN002",
+        "Option_ID": "1002",
+        "Model_name": "Tata Nexon",
+        "Inventory_ID": "IN002",
+        "Customer_ID": "C002",
+        "Manufacturing_ID": "M002",
+        "Feature_ID": "F002"
+    },
+    {
+        "V_IN": "VIN003",
+        "Option_ID": "1003",
+        "Model_name": "Tata Nexon EV",
+        "Inventory_ID": "IN003",
+        "Customer_ID": "C003",
+        "Manufacturing_ID": "M003",
+        "Feature_ID": "F003"
+    },
+    {
+        "V_IN": "VIN004",
+        "Option_ID": "1004",
+        "Model_name": "Tata Harrier",
+        "Inventory_ID": "IN004",
+        "Customer_ID": "C004",
+        "Manufacturing_ID": "M004",
+        "Feature_ID": "F004"
+    },
+    {
+        "V_IN": "VIN005",
+        "Option_ID": "1005",
+        "Model_name": "Tata Tigor EV",
+        "Inventory_ID": "IN005",
+        "Customer_ID": "C005",
+        "Manufacturing_ID": "M005",
+        "Feature_ID": "F005"
+    },
+    {
+        "In_ID": "IN001",
+        "In_name": "Inventory 1",
+        "In_location": "I_Location 1",
+        "Dealer_ID": "D001"
+    },
+    {
+        "In_ID": "IN002",
+        "In_name": "Inventory 2",
+        "In_location": "I_Location 2",
+        "Dealer_ID": "D002"
+    },
+    {
+        "In_ID": "IN003",
+        "In_name": "Inventory 3",
+        "In_location": "I_Location 3",
+        "Dealer_ID": "D003"
+    },
+    {
+        "In_ID": "IN004",
+        "In_name": "Inventory 4",
+        "In_location": "I_Location 4",
+        "Dealer_ID": "D001"
+    },
+    {
+        "In_ID": "IN005",
+        "In_name": "Inventory 5",
+        "In_location": "I_Location 5",
+        "Dealer_ID": "D002"
+    },
+    {
+        "D_ID": "D001",
+        "Dname": "Dealer 1",
+        "Dlocation": "D_City 1"
+    },
+    {
+        "D_ID": "D002",
+        "Dname": "Dealer 2",
+        "Dlocation": "D_City 2"
+    },
+    {
+        "D_ID": "D003",
+        "Dname": "Dealer 3",
+        "Dlocation": "D_City 3"
+    },
+    {
+        "D_ID": "D004",
+        "Dname": "Dealer 4",
+        "Dlocation": "D_City 4"
+    },
+    {
+        "D_ID": "D005",
+        "Dname": "Dealer 5",
+        "Dlocation": "D_City 5"
+    },
+    {
+        "Model_ID": "Model001",
+        "Model_name": "Tata Tiago",
+        "Model_year": "2023-01-01",
+        "Body_style": "Sedan",
+        "Brand_name": "Tata Motors PV",
+        "Part_ID": "101"
+    },
+    {
+        "Model_ID": "Model002",
+        "Model_name": "Tata Nexon",
+        "Model_year": "2023-01-01",
+        "Body_style": "Small SUV",
+        "Brand_name": "Tata Motors PV",
+        "Part_ID": "201"
+    },
+    {
+        "Model_ID": "Model003",
+        "Model_name": "Tata Nexon EV",
+        "Model_year": "2023-01-01",
+        "Body_style": "Hatchback",
+        "Brand_name": "Tata passenger EV",
+        "Part_ID": "301"
+    },
+    {
+        "Model_ID": "Model004",
+        "Model_name": "Tata Harrier",
+        "Model_year": "2023-01-01",
+        "Body_style": "SUV",
+        "Brand_name": "Tata Motors PV",
+        "Part_ID": "401"
+    },
+    {
+        "Model_ID": "Model005",
+        "Model_name": "Tata Tigor EV",
+        "Model_year": "2023-01-01",
+        "Body_style": "Sedan",
+        "Brand_name": "Tata passenger EV",
+        "Part_ID": "501"
+    },
+    {
+        "Feature_ID": "F001",
+        "Engine": "V6",
+        "Transmission": "Automatic",
+        "Color": "Red",
+        "Model_ID": "Model001",
+        "VIN": "VIN001"
+    },
+    {
+        "Feature_ID": "F002",
+        "Engine": "Inline-4",
+        "Transmission": "Manual",
+        "Color": "Blue",
+        "Model_ID": "Model002",
+        "VIN": "VIN002"
+    },
+    {
+        "Feature_ID": "F003",
+        "Engine": "V8",
+        "Transmission": "Automatic",
+        "Color": "Black",
+        "Model_ID": "Model003",
+        "VIN": "VIN003"
+    },
+    {
+        "Feature_ID": "F004",
+        "Engine": "Inline-6",
+        "Transmission": "Automatic",
+        "Color": "White",
+        "Model_ID": "Model004",
+        "VIN": "VIN004"
+    },
+    {
+        "Feature_ID": "F005",
+        "Engine": "V12",
+        "Transmission": "Automatic",
+        "Color": "Silver",
+        "Model_ID": "Model005",
+        "VIN": "VIN005"
+    },
+    {
+        "M_ID": "M001",
+        "Mname": "Manufacturer 1",
+        "Mlocation": "M_Location 1",
+        "Brand_name": "Tata Motors PV"
+    },
+    {
+        "M_ID": "M002",
+        "Mname": "Manufacturer 2",
+        "Mlocation": "M_Location 2",
+        "Brand_name": "Tata Motors PV"
+    },
+    {
+        "M_ID": "M003",
+        "Mname": "Manufacturer 3",
+        "Mlocation": "M_Location 3",
+        "Brand_name": "Tata passenger EV"
+    },
+    {
+        "M_ID": "M004",
+        "Mname": "Manufacturer 4",
+        "Mlocation": "M_Location 4",
+        "Brand_name": "Tata Motors PV"
+    },
+    {
+        "M_ID": "M005",
+        "Mname": "Manufacturer 5",
+        "Mlocation": "M_Location 5",
+        "Brand_name": "Tata passenger EV"
+    },
+    {
+        "Brand_name": "Tata Motors PV",
+        "Company_ID": "5001",
+        "Model_ID": "null",
+        "Num_of_employees": "15000"
+    },
+    {
+        "Brand_name": "Tata passenger EV",
+        "Company_ID": "5002",
+        "Model_ID": "null",
+        "Num_of_employees": "7500"
+    },
+    {
+        "COMID": "5001",
+        "Num_of_employees": "15000",
+        "Brand_name": "Tata Motors PV"
+    },
+    {
+        "COMID": "5002",
+        "Num_of_employees": "7500",
+        "Brand_name": "Tata passenger EV"
+    },
+    {
+        "SID": "10001",
+        "Sname": "Supplier 1",
+        "Slocation": "S_Location 1"
+    },
+    {
+        "SID": "10002",
+        "Sname": "Supplier 2",
+        "Slocation": "S_Location 2"
+    },
+    {
+        "SID": "10003",
+        "Sname": "Supplier 3",
+        "Slocation": "S_Location 3"
+    },
+    {
+        "SID": "10004",
+        "Sname": "Supplier 4",
+        "Slocation": "S_Location 4"
+    },
+    {
+        "SID": "10005",
+        "Sname": "Supplier 5",
+        "Slocation": "S_Location 5"
+    },
+    {
+        "Part_ID": "101",
+        "Part_type": "Engine Parts",
+        "Made_date": "2023-01-01",
+        "Supply_date": "2023-01-15",
+        "SID": "10001",
+        "Model_ID": "Model001"
+    },
+    {
+        "Part_ID": "201",
+        "Part_type": "Transmission Parts",
+        "Made_date": "2023-01-02",
+        "Supply_date": "2023-01-16",
+        "SID": "10002",
+        "Model_ID": "Model002"
+    },
+    {
+        "Part_ID": "301",
+        "Part_type": "Body Parts",
+        "Made_date": "2023-01-03",
+        "Supply_date": "2023-01-17",
+        "SID": "10003",
+        "Model_ID": "Model003"
+    },
+    {
+        "Part_ID": "401",
+        "Part_type": "Electrical Parts",
+        "Made_date": "2023-01-04",
+        "Supply_date": "2023-01-18",
+        "SID": "10004",
+        "Model_ID": "Model004"
+    },
+    {
+        "Part_ID": "501",
+        "Part_type": "Interior Parts",
+        "Made_date": "2023-01-05",
+        "Supply_date": "2023-01-19",
+        "SID": "10005",
+        "Model_ID": "Model005"
+    }
+]
